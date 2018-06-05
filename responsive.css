@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+	.header{
+	height: 50px;
+	line-height: 40px;
+	}
+	.logo img{
+		height: 20px;
+	}
+	.fa-bars{
+		display: block;
+		cursor: pointer;
+	}
+	ul{
+		display: none;
+	}
+	.active{
+		display: block;
+	}
+	.header ul li{
+		width: 60%;
+		text-align: center;
+		background: #FDC608;
+		margin-left: 40%;
+		border-bottom: 1px solid #CDB667;
+	}
+	
+	.main{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.right{
+		padding-right: 0;
+		text-align: justify;
+	}
+	.skill{
+		grid-template-areas: 
+		'a'
+		'b'
+		'c';
+	}
+	.education{
+		grid-template-areas: 
+		'a a'
+		'b b'
+		'c c'
+		'd d';
+	}
+	.services{
+		grid-template-columns: 1fr;
+	}
+	.contact{
+	grid-template-columns: 1fr;
+	}
+
+}
